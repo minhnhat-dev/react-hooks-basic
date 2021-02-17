@@ -1,0 +1,10 @@
+.box {
+    $box-size: 400px;
+    width: $box-size;
+    height: $box-size;
+    border-radius: 2px;
+    border-radius: 5px;
+
+    transition: all 0.4s ease-in-out 0s;
+    cursor: pointer;
+}
