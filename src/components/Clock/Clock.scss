@@ -1,0 +1,37 @@
+// <div className="box-time">
+// <div className="first-box-time">
+
+.box-time {
+
+    $width-box: 700px;
+    $width-box-children: 200px;
+    $height-box: 200px;
+    $height-box-children: 150px;
+
+    width: $width-box;
+    height: $height-box;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: powderblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__first-box-time {
+        width: $width-box-children;
+        height: $height-box-children;
+        background-color: blanchedalmond;
+        border: 1px solid black;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    &__second-box-time {
+        width: $width-box-children;
+        height: $height-box-children;
+        background-color: whitesmoke;
+        border: 1px solid black;
+        border-radius: 8px;
+        text-align: center;
+    }
+}

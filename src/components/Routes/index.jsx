@@ -10,6 +10,7 @@ import {
 import Home from '../Home';
 import ColorBox from '../ColorBox';
 import TodoList from '../TodoList';
+import Clock from '../Clock';
 
 const routes = [
     {
@@ -26,6 +27,11 @@ const routes = [
         path: '/todo-list',
         component: TodoList,
         title: 'Todo List'
+    },
+    {
+        path: '/clock',
+        component: Clock,
+        title: 'Clock'
     }
 ];
 
