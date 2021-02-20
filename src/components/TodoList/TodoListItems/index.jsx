@@ -23,7 +23,7 @@ function TodoListItems({ todos = [], handleOnClickToDoItem }) {
                 {todos.map((todo, index) => (
                     <li
                         className="title"
-                        key={index.toString()}
+                        key={todo.id.toString()}
                         onClick={() => handleClick(todo.id)}
                     >
                         {todo.title}
